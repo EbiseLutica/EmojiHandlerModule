@@ -28,7 +28,7 @@ namespace EmojiHandlerModule
             {
                 // 遊び時間
                 await Task.Delay(300);
-                await shell.ReactAsync(n, m.Groups[1].Value);
+                await shell.ReactAsync(n, m.Value);
                 return true;
             }
             return false;
